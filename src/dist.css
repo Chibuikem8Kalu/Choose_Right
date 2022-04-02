@@ -23,6 +23,11 @@ a{
      .navbar{
          max-width: 45em;
      }
+
+     .grid{
+         display:block!important;
+         margin: 0;
+     }
 }
 
 .header_background {
@@ -77,10 +82,10 @@ a{
 
 
 
-/*.grid {
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); /
+    /* grid-template-rows: repeat(4, 1fr); */
     margin: -2em 12em -2em 12em;
 }
 
@@ -142,7 +147,7 @@ a{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.box {
+/*.box {
     margin: 0 12em 4em 12em;
     display: flex;
     gap: 1em;
